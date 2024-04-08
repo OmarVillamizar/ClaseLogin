@@ -11,31 +11,46 @@
          
     </header>
     <main>
-<<<<<<< HEAD
-        <form class="login" name="loginForm" method="POST">
+        <form name="loginForm" class="login">
              <div id="caja">
                 <div class="login_user">
-                    <label class="label_login" for="user">Email</label>
+                    <label class="label_login" for="user">Email       </label>
                     <input name="email" type="text" id="user" class="input_login" required>
                 </div>
                 <div id="pass_caja">
                     <label class="label_login"for="pass">Contraseña</label>
                     <input name="password" type="text" id="pass" class="input_login" required>
-=======
-        <form class="login" onsubmit="return false;">
-             <div id="caja">
-                <div class="login_user">
-                    <label class="label_login" for="user">Email       </label>
-                    <input type="text" id="user" class="input_login" required>
-                </div>
-                <div id="pass_caja">
-                    <label class="label_login"for="pass">Contraseña</label>
-                    <input type="number" id="pass" class="input_login" required>
->>>>>>> df0ccf43cdbb3d3dbc343ced8e81b0a3a98e24df
                 </div>
                 <input type="submit" value="Ingresar" id="btn_ingresar">
             </div>
         </form>
+        <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+
+    <script>
+
+      // Initialize Firebase
+
+      var config = {
+
+        apiKey: "AIzaSyC3WxyMcWz0zCfd7nkp1ybWoIvVl-AawQU",
+
+        authDomain: "proyectotest-33116.firebaseapp.com",
+
+        projectId: "proyectotest-33116",
+
+        storageBucket: "proyectotest-33116.appspot.com",
+
+        messagingSenderId: "1030512349335",
+
+        appId: "1:1030512349335:web:66f483f6688df3caef19d2"
+
+
+
+      };
+
+      firebase.initializeApp(config);
+
+</script>
     </main>
     
 </body>
